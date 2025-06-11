@@ -1,6 +1,6 @@
 package behavioral.observer;
 
-public class OrderClient {
+public class ObserverClient {
     public static void main(String[] args) {
         OrderObserver customerObserver = new CustomerNotificationObserver("Rajni");
         OrderObserver adminObserver = new AdminNotificationObserver("Ambarish");
